@@ -3,15 +3,15 @@ import './App.css';
 
 //components
 
-import InputTodo from "./components/InputTodo";
-import ListTodos from "./components/ListTodos";
+import InputTweet from "./components/InputTweet";
+import ListTweets from "./components/ListTweets";
 
 function App() {
   return (
   <Fragment>
   <div className="container">
-    <InputTodo/>
-    <ListTodos/>
+    <InputTweet/>
+    <ListTweets/>
   </div>
   </Fragment>
   );
